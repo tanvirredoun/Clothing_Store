@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Deliveryman Registration</title>
+</head>
+
+<body>
+
+    <h1>Online Bookshop</h1>
+
+   
+    <button>Home</button>
+    <button>About</button>
+    <button>Contact Us</button>
+
+
+    <h2>Deliveryman Registration</h2>
+
+  
+
+        <table>
+
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name" placeholder="Enter your name" required></td>
+            </tr>
+
+            <tr>
+                <td>Phone Number:</td>
+                <td><input type="tel" name="phone" placeholder="Enter your number"required></td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date" name="dob" required></td>
+            </tr>
+
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="Male" required> Male
+                    <input type="radio" name="gender" value="Female" required> Female
+                    <input type="radio" name="gender" value="Other" required> Other
+                </td>
+            </tr>
+
+            <tr>
+                <td>NID Number:</td>
+                <td><input type="number" name="nid" placeholder="Enter your NID number"required></td>
+            </tr>
+
+            <tr>
+                <td>Vehicle Type:</td>
+                <td>
+                    <select name="vehicle" required>
+                        <option value="">Select Vehicle</option>
+                        <option value="Bicycle">Bicycle</option>
+                        <option value="Motorcycle">Motorcycle</option>
+                        <option value="Bicycle">Electric Bike</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Assigned Area:</td>
+                <td>
+                    <select name="area" required>
+                        <option value="">Select Area</option>
+                        <option value="Bashundhara">Dhaka</option>
+                        <option value="Dinajpur">Dinajpur</option>
+                        <option value="Brahmanbaria">Brahmanbaria</option>
+                        <option value="Gazipur">Gazipur</option>
+                        <option value="Chattogram">Chattogram</option>
+                        <option value="Sylhet">Sylhet</option>
+                        <option value="Rajshahi">Rajshahi</option>
+                        <option value="Comilla">Comilla</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Availability:</td>
+                <td>
+                    <input type="radio" name="availability" value="Full-time" required> Full-time
+                    <input type="radio" name="availability" value="Part-time" required> Part-time
+                </td>
+            </tr>
+
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password"placeholder="Abcd@123" required></td>
+            </tr>
+             <tr>
+                <td>Confirm Password:</td>
+                <td><input type="password" name="comfirm password"placeholder="Rewrite your password" required></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button type="reset">Cancel</button>
+                </td>
+                <td>
+                    <button type="submit">Register</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td >
+                    Already have an account?
+                    <button>Login</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+</html>
